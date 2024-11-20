@@ -1,0 +1,18 @@
+.top{
+    margin: 4% 0%;
+}
+.title{
+    text-align: center;
+    margin-bottom: 4%;
+}
+.title h1{
+    font-size: 58px !important;
+}
+.title a{
+    text-decoration: none;
+    padding: 6px 9px;
+    color: white;
+    background-color: rgb(236, 69, 69);
+    border-radius: 4px;
+    margin: 6px 0px;
+}

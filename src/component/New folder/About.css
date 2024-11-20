@@ -1,0 +1,60 @@
+.About{
+    margin: 5% 0%;
+}
+.sec1 , .sec2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+.sec1 img {width: 30%;}
+.sec1 .left{
+width: 50%;
+padding: 20px 0px;
+}
+.sec1 .left h2{padding: 20px 0px;}
+.sec2 div{border: 1px solid rgb(78, 75, 75);
+margin: 3% 0px;
+padding: 9px;
+text-align: center;
+transition: 0.4s;
+width: 250px;
+}
+.sec2 div svg{
+    font-size:40px;
+    background-color: black;
+    color: white;
+outline: 6px solid rgb(194, 182, 182) ;  
+  border-radius: 50%;
+    padding: 9px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+.sec2 div:hover{background-color: rgb(231, 61, 61);
+color: white;}
+.sec2 div:hover svg{
+    background-color: white;
+        color: black;
+        outline: 4px solid rgba(233, 202, 202, 0.541);
+}
+.sec3 .icons svg{display: inline-block;
+font-size: 20px;}
+.sec3 div.slick-slide img{width: 70%;
+height: 250px;}
+
+@media screen and (max-width : 1200px){
+.sec1 img {
+        width: 40%;
+    }
+}
+@media screen and (max-width : 800px) {
+.sec1 {
+        display: block;
+    }
+    .sec1 img {
+        width: 80%;
+    }
+    .sec1 .left {
+        width: 90%;
+    }
+}

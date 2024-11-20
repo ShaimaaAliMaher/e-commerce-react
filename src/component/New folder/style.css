@@ -1,0 +1,409 @@
+
+/* Navbar */
+nav{
+    border-bottom: 1px solid black;
+    align-items: center; 
+}
+.navbar-nav{width: 43%;}
+.navbar-nav a{
+    margin-left: 19px;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+nav hr{
+    margin-top: -1px;
+}
+form{
+    background-color: rgba(226, 226, 223, 0.548);
+    width: 33%;
+    margin-right: 5px;
+   
+    align-items: center;
+    padding: 0px 15px 0px 4px;
+    border-radius: 9px ;
+}
+form input{
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+nav svg{
+    font-size: 22px;
+    margin-left: 16px;
+    color: black;
+}
+.cart{
+    background-color: aliceblue;
+    position: relative !important;
+}
+.count{
+    background-color: rgb(241, 47, 47);
+    display:block;
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height:20px;
+    text-align: center;
+    line-height: 20px;
+   top: -9px;
+   left: 30px;
+   font-size: 13px;   
+   color: white;
+}
+.usericon{
+    color: white;
+    background-color: rgb(221, 32, 32);
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+.user{position: relative;}
+.iconcontent{
+    background-color: rgba(104, 98, 98, 0.808);
+    position: absolute;
+    width: 200px;
+    top: 45px;
+    right: 2px;
+    color: white;
+    padding-top: 5px;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    z-index: 6;
+    transition: 0.5s;
+}
+.iconcontent a , .iconcontent p{cursor: pointer;
+text-decoration: none;
+color: black;}
+.iconcontent.active{
+opacity: 1;
+}
+.iconcontent.inactive {
+    opacity: 0;
+}
+.iconcontent svg {
+   display: inline-block;
+   color: white;
+   width: 20px;
+   margin-right: 12px;
+}
+
+                  /* Hero */
+.category{
+    width: 25%;
+    padding-top: 25px;
+    border-right: 1px solid black;
+}
+.category ul{
+    line-height: 35px;
+    font-size: 20px; 
+}
+.category li.d-flex{
+    justify-content: space-between;
+}
+.category svg{
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 11px;
+}
+.hero{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 25px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.hero img{
+    width: 50%;
+}
+.hero .content {
+    margin: 40px 20px 0px 40px;
+}
+.hero .content svg{
+    display: inline-block;
+    font-size: 50px;
+    padding-right: 19px;
+}
+.hero .content span {
+    font-size: 20px;
+}
+.hero .content h2 {
+    font-size: 55px;
+    padding: 12px 18px 12px 0px;
+}
+.hero .content a{
+    color: white;
+    padding-right: 12px;
+    margin-left: 12px;
+}
+.hero .circle{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
+.hero .circle svg{
+    margin-left: 9px;
+    color: rgb(184, 179, 179);
+    font-size: 12px;
+}
+.hero .circle svg.on {
+    color: rgb(243, 114, 114);
+    border: 2px solid white;
+    border-radius: 50%;
+}
+                        /*Info  */
+.info{
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+.rect{
+    width: 15px;
+    height: 30px;
+    background-color:rgb(243, 74, 74); 
+    border-radius: 3px;
+    margin-right:  12px;
+}
+.rectcontent{
+    color:  rgb(243, 74, 74);
+    font-size: 18px;
+    font-weight: 600;
+}
+.browser{
+    justify-content: space-between;
+    margin: 4px 0px 20px 0px;
+}
+.browser svg{
+    font-size: 30px;
+    margin-left: 7px;
+    color: rgb(87, 86, 86);
+}
+.icons1{
+    justify-content: space-between;
+    display: flex;
+   flex-wrap: wrap;
+}
+.icons1 div{
+    border: 1px solid rgb(88, 87, 87);
+    width: 170px;
+    padding: 20px 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.icons1 div svg{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.icons1 div:hover  {
+    background-color: rgb(243, 74, 74);
+    color: white;
+}
+                 /* Enhance */
+.Enhance{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 40px 0px;
+    cursor: pointer;
+}
+.Enhance .content-En{width: 40%;
+padding: 70px 20px 20px 70px ;}
+.Enhance .content-En p{color: rgb(47, 212, 47);}
+.Enhance .content-En h2{font-size: 42px;}
+.Enhance .content-En .times{
+    justify-content: space-between;
+}
+.Enhance .content-En .times div{
+    width: 65px;
+    height: 65px;
+    margin: 19px 0px;
+    border-radius: 50%;
+    background-color: white;
+    color: black ;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 12px;
+}
+.Enhance .content-En .times div p{color: black;}
+.Enhance .content-En button{
+    background-color:rgb(47, 212, 47) ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.Enhance img{height: 100%;
+width: 60%;}
+
+
+                   /* Arrival */
+.image-Arr{
+    margin-top: 40px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    height: 80vh;}
+.image-Arr .fifty{
+   flex-grow: 1;
+   margin-right: 20px;}
+.image-Arr .Arr-item{position: relative;}
+.image-Arr .Arr-item img{
+    width: 100%;
+     height: 100%;}
+.image-Arr .Arr-item .content{position: absolute;
+    color: white;
+    width: 40%;
+    top: 60%;
+    left: 4%;}
+.image-Arr .Arr-item .content a{color: white;}
+.fifty .Arr-item.topr{
+   flex-grow: 1;
+    height: 50%;
+    margin: 5px 0px;
+}
+.fifty .Arr-item.topr .content{top: 26%;}
+.fifty .botr{
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+   gap: 8px;}
+.fifty .botr .i3{
+    width: 50%;
+    background-color: black;
+    height: 100%;
+}
+.fifty .botr .i3 img{width: 60%;}
+.fifty .botr .i3 .content {
+    top:36%;
+    width: 50%;
+    left: 50%;
+}
+.hero::before,
+ .Arr-item::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.9s;
+    background: linear-gradient(50deg, transparent 50%, rgba(255, 255, 255, 0.2) 60%, rgba(255, 255, 255, 0.5) 70%, transparent 71%);
+    background-size: 200% 100%;
+    background-position: 200% 0%;
+}
+
+.hero:hover::before,
+.Arr-item:hover::before {
+    background-position: -20% 0%;
+}
+                      /* End */
+.end{ display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 70px;
+   text-align: center;
+    align-items: center;}
+.end div{
+    width: 280px;
+    padding: 30px 20px;
+    text-align: center;
+}
+.end div svg{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    outline: gray;
+    padding: 6px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   border: 8px solid rgb(165, 156, 156);
+   margin: 0px 0px 12px 0px;
+}
+                /* footer */
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer .container{
+    flex-wrap: wrap;
+}
+.footer div.content{
+  flex-grow: 1;
+  margin-top: 10%;
+}
+.footer div.content p {
+   font-size: 12px;
+}
+.footer div.content h4 {
+   margin-bottom: 19px ;
+}
+.footer div.content form{width: 74%;
+    background-color: rgb(219, 215, 215);
+    padding: 10px 5px;
+display: flex;
+justify-content: space-between;}
+.footer div.content form input{width: 60%;}
+.footer div.content .Qr1 div{ margin-left: 10%;}
+.footer div.content .icons  {  margin-top: 6%;
+gap: 20px;}
+.footer div.content .icons svg {
+   font-size: 20px;
+}
+.footerend{
+    text-align: center;
+    color: rgb(78, 74, 74);
+    border-top: 1px solid rgba(70, 68, 68, 0.795);
+    padding: 14px 0px;
+}
+                 /* MEDIA SCREEN */
+@media  screen and (max-width: 1000px) {
+nav svg {
+    margin-top: 7px;
+}
+ .category{
+     width: 30% !important;
+ }
+ .hero{
+    width: 60% !important;
+ }
+ .content-En {
+     width: 60% !important;
+ }
+.Enhance img{width: 40%;}
+.image-Arr{flex-wrap: wrap;} 
+.end{margin-top: 100%;}
+ .footer div.content {
+
+     margin-left: 10%;
+ }
+
+ form  {width: 100%;}
+}
+@media screen and (max-width: 770px) {
+    .container.rt{display: block !important;}
+    .category , .hero {width: 90% !important;}
+    .content-En{width: 60%;}
+        .Enhance img {
+            width: 40%;
+        }
+    .fifty .botr .i3 .content {
+        top: 30%;
+        width: 60%;
+       
+    }
+    .end {
+        margin-top: 70%;
+    }
+    .end div{margin-left: 70px;
+    margin-top: 40px;}
+       
+}
+
+

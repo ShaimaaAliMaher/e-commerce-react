@@ -1,0 +1,160 @@
+.myimg{
+    width: 100px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.catrtop{
+    margin-top: 40px;
+}
+.back{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 7px;
+    color: black;
+}
+.coupon{
+    margin: 5% 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.coupon h5{margin: 8px 0px;}
+.coupon input , .Check .content .right .r4 input{border: 1px solid black;
+border-radius: 5px;
+padding: 6px;
+margin: 0px 3px 0px 0px;}
+.coupon button , .btn , .Check .btn , .account .btn2{
+    background-color: rgb(226, 61, 61);
+    padding: 8px;
+    margin-left: 8px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.coupon .right{
+    border: 1px solid;
+    width: 400px;
+    border-radius: 5px;
+    padding: 8px;
+}
+/* //////////////// */
+.wishlist{
+    margin: 4% 0%;
+}
+.wishlist .wish{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.wishlist .wish .itemw{
+    width: 250px;
+    margin: 4px 5px; 
+}
+.wishlist .wish .itemw .img{
+    width: 100%;
+    position: relative;
+}
+.wishlist .wish .itemw img{width: 90%;
+margin: auto;}
+.wishlist .add{width: 100%;
+    text-align: center;
+background-color: rgb(15, 15, 41);
+padding: 3px 0px;
+color: white;}
+.itemw svg{
+    position: absolute;
+    font-size: 30px;
+    top :5px;
+    right: 7px;
+}
+.itemw svg:hover{color: brown;}
+.itemw .content p{ color: brown;
+font-size: 20px;
+padding: 4px;}
+
+/* /// */
+.Check{
+    margin: 4% 0%;
+}
+.Check .content ,.account .content{
+    margin: 3% 0px 6px 0px ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Check .content .left h2{
+    margin-bottom: 12px;
+}
+.Check .content .left input{
+    background-color: rgba(220, 220, 220, 0.671);
+    border-radius: 4px;
+    margin: 12px 0px;
+   padding: 6px;
+   outline: none;
+   border: none;
+}
+.Check .content .left input[type=text]{
+    width: 350px;
+}
+.Check .content .right{
+    margin-top: 6%;
+    width: 380px;
+}
+.Check .content .right .r3 img{
+    display: inline-block;
+    width: 20%
+}
+.Check .content .right .r4{
+    margin:  12px 0px;
+}
+.Check .content .right .r1 img{
+   width: 50px;
+   margin-right: 5px;
+}
+.Check .content .right .r1 p{
+    color: rgb(224, 45, 45);
+    margin-left: 5px;
+}
+.Check .content .right .r1 div{margin-bottom: 8px;}
+/* /////////////////// */
+.account {
+    margin: 5% 0%;
+}
+.account .top{
+    display: flex;
+    justify-content: space-between;
+}
+.account .content .left div{margin-left: 25px;
+margin-bottom: 5px;}
+.account .right input{
+    background-color: rgba(220, 220, 220, 0.774);
+    margin: 6px 0px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 90%;
+    outline: none;
+    border: none;
+}
+.account .g{
+    margin-left:60%;
+    margin-top: 9px;
+}
+.account .right{
+    box-shadow: 1px 1px 4px gainsboro;
+    padding: 13px;
+    border-radius: 8px;
+}
+.account .btn1{
+ border: 1px solid rgb(170, 169, 169);
+ border-radius: 5px;
+ padding: 5px ;
+}
+.account .btn2{border: none;}
+.empty{
+    margin: 5%;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(234, 235, 235, 0.842);
+    border-radius: 22px;
+}

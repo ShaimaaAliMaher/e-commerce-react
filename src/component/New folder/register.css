@@ -1,0 +1,67 @@
+.Register{
+    display: flex;
+   flex-wrap: wrap;
+    margin: 50px 0px;
+}
+.Register .img img{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.Register .form{padding-left: 20px;
+}
+.Register .form h6{
+ padding-bottom: 8px;
+}
+.Register .form input{
+    border-bottom: 1px solid black !important;
+    outline: none;
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+}
+.create{
+    border: none;
+    background-color: rgb(236, 49, 16);
+    margin: 12px auto;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 6px ;
+    width: 100%;
+    display: inline-block;
+
+}
+.icon-b{
+    border: 1px solid black;
+        border-radius: 4px;
+        padding: 6px;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 4px;
+}
+.Register .form img{ width: 20px;
+margin-right: 12px;}
+.Register p{text-align: center;}
+.Register p a{
+   color: rgb(121, 119, 119);}
+
+              /* login */
+.log{
+        background-color: rgb(236, 49, 16);
+            margin: 12px auto;
+            color: white;
+            text-align: center;
+            border-radius: 4px;
+            padding: 6px;
+            width:40%;
+            border: none;
+}
+.log2{padding-left: 12px;
+color: rgb(206, 44, 16);}
+.login .form{
+    margin-top: 7%;
+}
+     
